@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import Members from './components/pages/Members';
 
 function App() {
   return (
     <div>
-      <h1>Dale dale</h1>
+      <Members />
     </div>
   );
 }
