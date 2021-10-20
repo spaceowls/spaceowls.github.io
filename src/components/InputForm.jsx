@@ -16,6 +16,7 @@ const InputStyles = styled.div`
     margin-top: 1.2em;
 
     input {
+        padding: .5em;
         width: 100%;
         border: none;
         height: 2em;

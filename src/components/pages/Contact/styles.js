@@ -6,32 +6,23 @@ export const ContactStyles = styled.section`
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-image: url(${bg});
   background-size: cover;
 
   form {
+    width: 90%;
     .contact__title {
-      width: 100%;
-
       h2 {
         color: #fff;
         font-size: 3em;
         font-weight: bold;
       }
     }
+  }
 
-    textarea {
-        margin-top: 1.2em;
-        border: none;
-        outline: none;
-        margin-bottom: 1em;
-
-        &::placeholder {
-            font-size: 1.2em;
-            font-weight: 400;
-        }
-    }
-
+  @media screen and (min-width: 768px) {
+    background-position: left;
   }
 `;
